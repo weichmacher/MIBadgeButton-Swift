@@ -18,11 +18,11 @@ class ViewController: UIViewController {
         
         facebookButton.badgeString = "19"
         facebookButton.badgeTextColor = UIColor.white
-        facebookButton.badgeEdgeInsets = UIEdgeInsetsMake(10, 0, 0, 15)
+        facebookButton.badgeEdgeInsets = UIEdgeInsets(top: 10, left: 0, bottom: 0, right: 15)
         twitterButton.badgeString = "180"
-        twitterButton.badgeEdgeInsets = UIEdgeInsetsMake(10, 0, 0, 15)
+        twitterButton.badgeEdgeInsets = UIEdgeInsets(top: 10, left: 0, bottom: 0, right: 15)
         pinterestButton.badgeString = "22220"
-        pinterestButton.badgeEdgeInsets = UIEdgeInsetsMake(10, 0, 0, 15)
+        pinterestButton.badgeEdgeInsets = UIEdgeInsets(top: 10, left: 0, bottom: 0, right: 15)
     }
 
 }
