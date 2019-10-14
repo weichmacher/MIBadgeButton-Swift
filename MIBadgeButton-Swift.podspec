@@ -17,6 +17,7 @@ Pod::Spec.new do |s|
   s.author           = { "Mustafa Ibrahim" => "mustafa.ibrahim989@gmail.com" }
   s.source           = { :git => "https://github.com/mustafaibrahim989/MIBadgeButton-Swift.git", :tag => s.version.to_s }
   s.platform     = :ios, '8.0'
+  s.swift_version    = "5.0"
   s.requires_arc = true
 
   s.source_files = 'Classes/**/*'
